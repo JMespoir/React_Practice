@@ -38,7 +38,7 @@ const App=()=>{
         <input ref={Input} onChange={OnChange} value={value}></input>
         <button type="submit" >Submit!!</button>
       </form>
-      {visiable ? <div>{cor ?`정답!! (${A})`: `오답!! (정답은 : (${A}))`}</div> : null}
+      {visiable ? <div>{cor ?`정답!! (${A})`: `오답!! 정답은 : (${A})`}</div> : null}
       
     </Fragment>
   );
